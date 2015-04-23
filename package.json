@@ -1,0 +1,18 @@
+{
+  "name": "xdr-structure",
+  "version": "0.0.3",
+  "description": "JavaScript implementetion of XDR (RFC 4506) running in browser",
+  "author": "Peter Bakondy <pbakondy@gmail.com>",
+  "main": "dist/xdr-structure.min.js",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "js-xdr": "^0.0.3",
+    "rimraf": "^2.3.2",
+    "uglifyjs": "^2.4.10"
+  },
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "build": "browserify node_modules/js-xdr/lib/index.js -s xdr -o dist/xdr-structure.js && uglifyjs dist/xdr-structure.js -o dist/xdr-structure.min.js"
+  }
+}

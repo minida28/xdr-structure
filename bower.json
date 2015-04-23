@@ -1,0 +1,17 @@
+{
+  "name": "xdr-structure",
+  "version": "0.0.3",
+  "homepage": "https://github.com/pbakondy/xdr-structure",
+  "authors": [
+    "Peter Bakondy <pbakondy@gmail.com>"
+  ],
+  "description": "JavaScript implementetion of XDR (RFC 4506) running in browser",
+  "main": "dist/xdr-structure.min.js",
+  "dependencies": {},
+  "keywords": [
+    "xdr",
+    "External Data Representation Standard",
+    "RFC 4506"
+  ],
+  "license": "Apache 2.0"
+}
